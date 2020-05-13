@@ -22,11 +22,21 @@ Kernel: `linux 5.6.11.arch1-1`
 | Power management 	        |                  |            | ❓      | 
 | Bluetooth 	            | ???              |            | ❓      |  
 
+## The ROG Button
+If it's possible to hijack the rog button, my current plans are to use PRIME to change the fan profiles to be more gaming focused and enable the dGPU. Another press would turn on silent mode and disable the iGPU.
+
+Initial thoughts might be:
+| Mode      | dGPU | iGPU | Notes
+|-----------|:----:|:----:|------
+| Standard  |      | X    | *default* Silent Fan Profile
+| Gaming    | X    |      | Gaming Profile (maybe like "Turbo" mode on armory)
+| Powersave |      | X    | Silent Fan Profile + cpu downclock
 
 ## Fan Profiles
-1. Determine the default fan profile speeds
+Need to determine the default fan profile speeds in windows, and alternatively
+the fan speed profiles in ASUS Armory.
 
-Example:
+**Example:**
 ### Windows Base
 | RPM   | °C  | %  | Notes    
 |-------|-----|----|------       
