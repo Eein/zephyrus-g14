@@ -5,7 +5,7 @@
 ## Specs
 
 Model: `GA401IV-BR9N6`
-Kernel: `linux 5.6.11.arch1-1`
+Kernel: `linux 5.6.12.arch1-1`
 BIOS: `???`
 
 --------
@@ -17,13 +17,13 @@ BIOS: `???`
 
 | Device                    | Name             | Driver/Ver | Status  | Notes
 | ------------------------- | ---------------- | ---------- | :------:| ----- 
-| iGPU  	                | Radeon Vega      |            | ❓      | 
-| dGPU                  	| Nvidia RTX™ 2060 |            | ❓      | 
+| iGPU  	                | Radeon Vega      |            | ✔️      | use default amdgpu
+| dGPU                  	| Nvidia RTX™ 2060 |            | ⚠️      | use nvidia-dkms & nvidia-prime
 | HDMI                      |                  |            | ❓      | 
-| Wireless                  | Intel AX20       |            | ❓      | 
-| Audio                     |                  |            | ❓      | 
-| Microphone                |                  |            | ❓      | 
-| Touchpad                  |                  |            | ❓      | 
+| Wireless                  | Intel AX20       |            | ✔️      | 
+| Audio                     |                  |            | ✔️      | 
+| Microphone                |                  |            | ✔️      | 
+| Touchpad                  |                  |            | ✔️      | 
 | Power management 	        |                  |            | ❓      | 
 | Bluetooth 	            |                  |            | ❓      |  
 | ROG Button                |                  |            | ❓      | 
