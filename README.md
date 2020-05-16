@@ -61,6 +61,15 @@ the fan speed profiles in ASUS Armory.
 ## Exploratory Notes
 1. USB-C may be connected to the dGPU - Port/Charging May not work when disabled.
 
+## Tips & Tricks (EndeavorOS/Arch)
+
+Since we're probably going to be updating bios alot, mount the root drive to /mnt
+
+a. in a liveCD mount root drive to /mnt
+b. `arch-chroot /mnt`
+c. mount the efi partition to /boot/efi
+d. run `grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub_uefi --recheck`
+
 ## Exploratory Sites
 ### Reviews
 https://arstechnica.com/gadgets/2020/04/linux-on-laptops-asus-zephyrus-g14-with-ryzen-9-4900hs/
