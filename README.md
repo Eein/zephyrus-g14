@@ -2,9 +2,9 @@
 
 ## Specs
 
-Model: `GA401IV-BR9N6`
-Kernel: `linux 5.6.13.arch1-1`
-BIOS: `???`
+- Model: `GA401IV-BR9N6`
+- Kernel: `linux 5.6.13.arch1-1`
+- BIOS: 212
 
 ## Kernels Tested On
 
@@ -13,6 +13,13 @@ BIOS: `???`
 | linux 5.6.11.arch1-1 | Had some issues with freezes
 | linux 5.6.12.arch1-1 | Seems good
 | linux 5.6.13.arch1-1 | Seems good
+
+## BIOS tested on
+
+| Kernel | Notes
+| ------ | ------
+| 211 | CPU runs hot
+| 212 | No change
 
 ✔️ = Working
 ⚠️ = Working, with issues
