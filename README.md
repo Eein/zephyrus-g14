@@ -1,14 +1,18 @@
 # Zephyrus G14 Linux
 
---------
-
 ## Specs
 
 Model: `GA401IV-BR9N6`
-Kernel: `linux 5.6.12.arch1-1`
+Kernel: `linux 5.6.13.arch1-1`
 BIOS: `???`
 
---------
+## Kernels Tested On
+
+| Kernel | Notes
+| ------ | ------
+| linux 5.6.11.arch1-1 | Had some issues with freezes
+| linux 5.6.12.arch1-1 | Seems good
+| linux 5.6.13.arch1-1 | Seems good
 
 ✔️ = Working
 ⚠️ = Working, with issues
@@ -16,19 +20,19 @@ BIOS: `???`
 ❓  = Not Tested
 
 | Device                    | Name             | Driver/Ver | Status  | Notes
-| ------------------------- | ---------------- | ---------- | :------:| ----- 
-| iGPU  	                | Radeon Vega      |            | ✔️      | use default amdgpu
-| dGPU                  	| Nvidia RTX™ 2060 |            | ⚠️      | use nvidia-dkms & nvidia-prime
-| HDMI                      |                  |            | ❓      | 
-| Wireless                  | Intel AX20       |            | ✔️      | 
-| Audio                     |                  |            | ✔️      | 
-| Microphone                |                  |            | ✔️      | 
-| Touchpad                  |                  |            | ✔️      | 
-| Power management 	        |                  |            | ❓      | 
-| Bluetooth 	            |                  |            | ❓      |  
-| ROG Button                |                  |            | ❓      | 
-| Media Keys                |                  |            | ❓      | 
-| Brightness Keys           |                  |            | ❓      | 
+| ------------------------- | ---------------- | ---------- | :------:| -----
+| iGPU  	                  | Radeon Vega      |            | ✔️      | use default amdgpu
+| dGPU                  	  | Nvidia RTX™ 2060 |            | ⚠️      | use nvidia-dkms & nvidia-prime
+| HDMI                      |                  |            | ✔️      |
+| Wireless                  | Intel AX20       |            | ✔️      |
+| Audio                     |                  |            | ✔️      |
+| Microphone                |                  |            | ✔️      |
+| Touchpad                  |                  |            | ✔️      |
+| Power management 	        |                  |            | ❓      |
+| Bluetooth 	              |                  |            | ❓      |
+| ROG Button                |                  |            | ❓      |
+| Media Keys                |                  |            | ❓      |
+| Brightness Keys           |                  |            | ❓      |
 
 ## The ROG Button
 If it's possible to hijack the rog button, my current plans are to use PRIME to change the fan profiles to be more gaming focused and enable the dGPU. Another press would turn on silent mode and disable the iGPU.
@@ -46,8 +50,8 @@ the fan speed profiles in ASUS Armory.
 
 **Example:**
 ### Windows Base
-| RPM   | °C  | %  | Notes    
-|-------|-----|----|------       
+| RPM   | °C  | %  | Notes
+|-------|-----|----|------
 | 1000  | 32  | 20 |
 | 2000  | 32  | 40 |
 | 3000  | 32  | 60 |
