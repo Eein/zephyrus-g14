@@ -65,10 +65,10 @@ the fan speed profiles in ASUS Armory.
 
 Since we're probably going to be updating bios alot, mount the root drive to /mnt
 
-a. in a liveCD mount root drive to /mnt
-b. `arch-chroot /mnt`
-c. mount the efi partition to /boot/efi
-d. run `grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub_uefi --recheck`
+- in a liveCD mount root drive to /mnt
+- `arch-chroot /mnt`
+- mount the efi partition to /boot/efi
+- run `grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub_uefi --recheck`
 
 ## Exploratory Sites
 ### Reviews
