@@ -70,11 +70,11 @@ the fan speed profiles in ASUS Armory.
 
 ## Tips & Tricks (EndeavorOS/Arch)
 
-Since we're probably going to be updating bios alot, mount the root drive to /mnt
+Since we're probably going to be updating bios alot:
 
 - in a liveCD mount root drive to /mnt
+- mount efi partition to /mnt/boot/efi
 - `arch-chroot /mnt`
-- mount the efi partition to /boot/efi
 - run `grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub_uefi --recheck`
 
 ## Exploratory Sites
