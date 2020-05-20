@@ -1,3 +1,5 @@
+# NOTE: My work here is on hold. Working through RMA as i've started getting a GPU fan grind/rattle.
+
 # Zephyrus G14 Linux
 
 ## Specs
