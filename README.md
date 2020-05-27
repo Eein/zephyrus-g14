@@ -15,6 +15,7 @@
 | linux 5.6.11.arch1-1 | Had some issues with freezes
 | linux 5.6.12.arch1-1 | Seems good
 | linux 5.6.13.arch1-1 | Seems good
+| linux 5.6.14.arch1-1 | Seems good
 
 ## BIOS tested on
 
@@ -42,6 +43,10 @@
 | ROG Button                |                  |            | ❓      |
 | Media Keys                |                  |            | ❓      |
 | Brightness Keys           |                  |            | ❓      |
+
+## Wayland
+So far, wayland seems to run fine if you're not using the nvidia gpu or prime-run.
+The only exception i've seen so far is that external monitors over USB-C do not work (using a dongle for hdmi). I believe it works with a DP->HDMI cable.
 
 ## The ROG Button
 If it's possible to hijack the rog button, my current plans are to use PRIME to change the fan profiles to be more gaming focused and enable the dGPU. Another press would turn on silent mode and disable the iGPU.
